@@ -5,7 +5,7 @@ def my_find(collection)
   i = 0
   while i < collection.length
     if yield(collection[i])
-      found_item << collection[i]
+      found_item = collection[i]
       break
     end
     i += 1
