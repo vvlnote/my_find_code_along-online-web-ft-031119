@@ -1,7 +1,7 @@
 require 'pry'
 
 def my_find(collection)
-  found_item = []
+  found_item = nil
   i = 0
   while i < collection.length
     if yield(collection[i])
