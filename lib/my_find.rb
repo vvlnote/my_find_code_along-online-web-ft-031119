@@ -8,6 +8,7 @@ def my_find(collection)
       found_item << collection[i]
       break
     end
+    i += 1
   end
   found_item
 end
